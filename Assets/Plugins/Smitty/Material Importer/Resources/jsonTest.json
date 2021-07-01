@@ -1,0 +1,88 @@
+{
+    "objects": [
+        "Apple01:0.001",
+        "Apple01:0.004"
+    ],
+    "materials": [
+        {
+            "name": "Apple01HP",
+            "type": "SkyrimTrans",
+            "maps": {
+                "map_diffuse": {
+                    "texture": "Apple1.png",
+                    "isAlpha": false
+                },
+                "map_alpha": {
+                    "texture": "Apple1.png",
+                    "isAlpha": true
+                },
+                "map_roughness": {
+                    "texture": "",
+                    "isAlpha": false
+                },
+                "map_specular": {
+                    "texture": "Apple1_n.png",
+                    "isAlpha": true
+                },
+                "map_metal": {
+                    "texture": "",
+                    "isAlpha": false
+                },
+                "map_normal": {
+                    "texture": "Apple1_n.png",
+                    "isAlpha": false
+                },
+                "map_subsurface": {
+                    "texture": "Apple1.png",
+                    "isAlpha": false
+                }
+            }
+        },
+        {
+            "name": "Apple02HP",
+            "type": "SkyrimTrans",
+            "maps": {
+                "map_diffuse": {
+                    "texture": "Apple2.png",
+                    "isAlpha": false
+                },
+                "map_alpha": {
+                    "texture": "Apple2.png",
+                    "isAlpha": true
+                },
+                "map_roughness": {
+                    "texture": "",
+                    "isAlpha": false
+                },
+                "map_specular": {
+                    "texture": "Apple2_n.png",
+                    "isAlpha": true
+                },
+                "map_metal": {
+                    "texture": "",
+                    "isAlpha": false
+                },
+                "map_normal": {
+                    "texture": "Apple2_n.png",
+                    "isAlpha": false
+                },
+                "map_subsurface": {
+                    "texture": "Apple2.png",
+                    "isAlpha": false
+                }
+            }
+        }
+    ],
+    "links": [
+        {
+            "Object": "2:0.001",
+            "materialSlot": 0,
+            "material": "sstuccowallint01"
+        },
+        {
+            "Object": "2:0.001",
+            "materialSlot": 1,
+            "material": "swoodcolumn01"
+        }
+    ]
+}
